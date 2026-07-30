@@ -1,6 +1,7 @@
 import { HomePages } from './PROFILE/Pages/home.js';
 import { AboutPages } from './PROFILE/Pages/about.js';
 import { KontakPages } from './PROFILE/Pages/kontak.js';
+import { EskulPages } from './PROFILE/Pages/eskul.js';
 
 const home = new HomePages().render();
 
@@ -11,6 +12,7 @@ export const routes = {
     '/home': HomePages,
     '/about': AboutPages,
     '/kontak': KontakPages,
+    '/eskul': EskulPages,
 };
 
 function renderPages() {
